@@ -9,6 +9,7 @@
 
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -137,6 +138,10 @@ ul {
     margin-right: 3px;
 }
 
+.sidenav-trigger {
+    display: none;
+}
+
 
 
 
@@ -183,12 +188,14 @@ ul {
 .about__inner {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
     column-gap: 125px;
     padding-top: 95px;
 }
 
 .about__info {
-    max-width: 445px;
+    width: 445px;
     padding-top: 30px;
 }
 
@@ -231,6 +238,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .oportunities__card {
@@ -282,6 +290,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin: 67px -16px 100px;
 }
 
@@ -341,11 +350,13 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .app__info {
     color: var(--white);
-    max-width: 445px;
+    width: 445px;
 }
 
 .app__header {
@@ -381,10 +392,12 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .contact__info {
-    max-width: 445px;
+    width: 445px;
     padding-left: 11px;
     padding-top: 24px;
 }

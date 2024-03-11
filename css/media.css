@@ -1,0 +1,96 @@
+@media screen and (max-width: 1280px) {
+    .container {
+        max-width: 95vw;
+    }
+
+    .about__inner {
+        justify-content: space-around;
+    }
+
+    .app__inner {
+        justify-content: space-around;
+    }
+
+    .app__image {
+        margin-right: 0;
+    }
+
+    .oportunities__inner {
+        justify-content: space-around;
+    }
+
+    .contact__inner {
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+    .nav__desktop_menu,
+    .nav__desktop_button {
+        display: none;
+    }
+
+    .sidenav-trigger {
+        display: block;
+    }
+
+    .sidenav-trigger:hover {
+        transform: translate(-1px, -1px);
+        box-shadow: 1px 1px 1px rgba(113, 111, 111, 0.6);
+    }
+    .sidenav-trigger:active {
+        transform: translate(0, 0);
+    }
+
+    .burger {
+        width: 50px;
+        height: 50px;
+        border: 1px solid var(--white);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5px 0;
+    }
+
+    .line {
+        height: 4px;
+        width: 80%;
+        background-color: var(--white);
+        border-radius: 2px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header__title {
+        font-size: 10vw;
+    }
+
+    .header__text {
+        font-size: 4.5vw;
+        line-height: 7vw;
+    }
+
+    .section-header {
+        font-size: 7vw;
+    }
+
+    .about__image {
+        width: 90vw;
+    }
+
+    .about__image>img,
+    .app__image>img {
+        width: 100%;
+    }
+
+    .oportunities__card_image>img {
+        max-width: 100%;
+    }
+    .technologies__inner {
+        margin-right: 0;
+    }
+}
